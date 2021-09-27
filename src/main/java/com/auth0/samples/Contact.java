@@ -20,7 +20,7 @@ public class Contact {
 
     @JsonIgnore
     @ManyToOne
-    @JoinColumn(name = "customer_id")
+    @JoinColumn(name = "customer_id") // join on customer id
     private Customer customer;
 
     private String name;
